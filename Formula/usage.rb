@@ -1,9 +1,9 @@
 class Usage < Formula
   desc "macOS menu bar Claude Code + Codex quota monitor"
   homepage "https://github.com/aqua5230/usage"
-  url "https://github.com/aqua5230/usage/releases/download/v0.11.14/usage.app.zip"
-  sha256 "31434ea1f6d12b0617cbc2e67cc984f00ec374e56724eed1841d403d2a863a00"
-  version "0.11.14"
+  url "https://github.com/aqua5230/usage/releases/download/v0.13.0/usage.app.zip"
+  sha256 "ab3ca93745da01a8838a1affb882d267be01c0e86112ec5c8a77213fa35a8877"
+  version "0.13.0"
   license "AGPL-3.0-only"
 
   def install
