@@ -3,7 +3,7 @@ class Usage < Formula
   homepage "https://github.com/aqua5230/usage"
   url "https://github.com/aqua5230/usage/releases/download/v0.14.1/usage.app.zip"
   sha256 "a7302607acb5a0c982a97eadbe042152d59e030945b061ff7d4d5b1a7e1880ff"
-  version "0.14.1"
+  version "0.14.0"
   license "AGPL-3.0-only"
 
   def install
