@@ -7,7 +7,7 @@ class Usage < Formula
   license "AGPL-3.0-only"
 
   def install
-    prefix.install "usage.app"
+    prefix.install buildpath/"usage.app"
   end
 
   def caveats
