@@ -7,7 +7,10 @@ class Usage < Formula
   license "AGPL-3.0-only"
 
   def install
-    prefix.install buildpath/"usage.app"
+    # The release zip has a single top-level usage.app/, which Homebrew strips
+    # by chdir-ing into it, so buildpath is already inside the bundle. Reassemble
+    # usage.app under prefix from the staged contents.
+    (prefix/"usage.app").install Dir["*"]
   end
 
   def caveats
