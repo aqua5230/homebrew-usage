@@ -4,7 +4,7 @@ cask "usage" do
 
   url "https://github.com/aqua5230/usage/releases/download/v#{version}/usage.app.zip"
   name "usage"
-  desc "Menu bar Claude Code + Codex quota monitor"
+  desc "Menu bar monitor for Claude Code, Codex, and Antigravity quota"
   homepage "https://github.com/aqua5230/usage"
 
   depends_on :macos
