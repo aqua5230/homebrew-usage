@@ -1,6 +1,6 @@
 cask "usage" do
-  version "0.29.35"
-  sha256 "397209b8d8f5bafe66a1845f5bce880cf6d52f2396b88d88045cb41f7cbb1449"
+  version "0.29.36"
+  sha256 "04c1668b7a644975bf99dc5e5b4795a2060bacb980ea0b573fdc3f23355c5710"
 
   url "https://github.com/aqua5230/usage/releases/download/v#{version}/usage.app.zip"
   name "usage"
