@@ -12,7 +12,9 @@ cask "usage" do
   app "usage.app"
 
   caveats <<~EOS
-    usage is ad-hoc signed (not notarized). On first launch, right-click
-    usage.app in your Applications folder and choose "Open" to pass Gatekeeper.
+    usage is ad-hoc signed (not notarized). On first launch, open usage.app
+    once. If macOS blocks it, go to System Settings > Privacy & Security,
+    scroll down, and click "Open Anyway". On macOS 14 or earlier,
+    right-click usage.app and choose "Open" instead.
   EOS
 end
